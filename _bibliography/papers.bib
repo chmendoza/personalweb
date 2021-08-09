@@ -17,13 +17,27 @@ year = {2012}
 abstract = {Seizures are one of the defining symptoms in pa- tients with epilepsy, and due to their unannounced occurrence, they can pose a severe risk for the individual that suffers it. New research efforts are showing a promising future for the prediction and preemption of imminent seizures, and with those efforts, a vast and diverse set of features have been proposed for seizure prediction algorithms. However, the data-driven discovery of nonsinusoidal waveforms for seizure prediction is lacking in the literature, which is in stark contrast with recent works that show the close connection between the waveform morphology of neural oscillations and the physiology and pathophysiology of the brain, and especially its use in effectively discriminating between normal and abnormal oscillations in electrocorticographic (ECoG) recordings of epileptic patients. Here, we explore a scalable, energy-guided waveform search strategy on spatially-projected continuous multi-day ECoG data sets. Our work shows that data-driven waveform learning methods have the potential to not only contribute features with predictive power for seizure prediction, but also to facilitate the discovery of oscillatory patterns that could contribute to our understanding of the pathophysiology and etiology of seizures.},
 author = {Mendoza-Cardenas, Carlos H. and Brockmeier, Austin J},
 booktitle = {10th Int. IEEE EMBS Conf. Neural Eng.},
-file = {:home/cmendoza/myResearchPapers/NER21{\_}final.pdf:pdf},
 pages = {4},
 title = {{Searching for waveforms on spatially-filtered epileptic ECoG}},
 year = {2021},
 arxiv = {2103.13853},
 code = {https://github.com/chmendoza/cspwave}
 }
+
+@inproceedings{Mendoza-Cardenas2021,
+abstract = {Seizure detection algorithms must discriminate abnormal neuronal activity associated with a seizure from normal neural activity in a variety of conditions. Our approach is to seek spatiotemporal waveforms with distinct morphology in electrocorticographic (ECoG) recordings of epileptic patients that are indicative of a subsequent seizure (preictal) versus non-seizure segments (interictal). To find these waveforms we apply a shift-invariant k-means algorithm to segments of spatially filtered signals to learn codebooks of prototypical waveforms. The frequency of the cluster labels from the codebooks is then used to train a binary classifier that predicts the class (preictal or interictal) of a test ECoG segment. We use the Matthews correlation coefficient to evaluate the performance of the classifier and the quality of the codebooks. We found that our method finds recurrent non-sinusoidal waveforms that could be used to build interpretable features for seizure prediction and that are also physiologically meaningful.},
+archivePrefix = {arXiv},
+arxivId = {2108.03177},
+author = {Mendoza-Cardenas, Carlos H. and Brockmeier, Austin J.},
+booktitle = {43rd Annu. Int. Conf. IEEE Eng. Med. Biol. Soc. [to be published]},
+eprint = {2108.03177},
+month = {aug},
+pages = {4},
+title = {{Shift-invariant waveform learning on epileptic ECoG}},
+arxiv = {2108.03177},
+year = {2021}
+}
+
 @inproceedings{Mendoza-Cardenas2013,
 address = {Las Vegas, USA},
 author = {Mendoza-Cardenas, Carlos H. and {Gaviria G{\'{o}}mez}, Natalia},
