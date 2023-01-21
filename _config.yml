@@ -47,10 +47,11 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 github_username: chmendoza # your GitHub user name
 twitter_username: # your Twitter handle
 linkedin_username: carlos-mendoza-cardenas # your LinkedIn user name
-scholar_userid: # your Google Scholar ID
-orcid_id: 0000-0003-2226-865X # your ORCID ID
+scholar_userid: 1qyz9gYAAAAJ # your Google Scholar ID
+#orcid_id: 0000-0003-2226-865X # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
+stack_exchange_userid: 4530765 # Your StackExchange user id
 publons_id: # your ID on Publons
 research_gate_profile: # your profile on ResearchGate
 blogger_url: # your blogger URL
